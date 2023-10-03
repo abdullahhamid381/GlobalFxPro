@@ -1,5 +1,7 @@
 import "./App.css";
 import AboutUs from "./components/Home/AboutUs";
+import Faq from "./components/Home/Faq";
+import Footer from "./components/Home/Footer";
 import Hero from "./components/Home/Hero";
 import How from "./components/Home/How";
 import Price from "./components/Home/Price";
@@ -19,6 +21,8 @@ function App() {
  <Record/>
  <WhyChoose/>
  <AboutUs/>
+ <Faq/>
+ <Footer/>
   </>
   );
 }
