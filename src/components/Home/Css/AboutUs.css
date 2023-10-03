@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:ital,wght@0,300;0,400;1,400&display=swap');
+
+.about-parent {
+    padding-top: 160px;
+    width: 1200px;
+    margin: auto;
+}
+.about-parent img{
+    width: 100%;
+    padding-top: 80px;
+}
+
+.about-title h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+
+}
+
+.about-title p {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 10px;
+}
+
+.about-us-detail {
+    display: flex;
+   justify-content: space-between;
+    gap: 80px;
+    padding-top: 80px;
+}
+
+.about-us-detail h1 {
+    color: #ffffff;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.35px;
+}
+
+.about-us-detail p {
+    color: #FFF;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.28px;
+}
