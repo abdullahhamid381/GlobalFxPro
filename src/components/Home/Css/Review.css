@@ -1,0 +1,23 @@
+.review-parent{
+    padding-top: 160px;
+    }
+    .review-title h1{
+        color: #FFF;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    
+    
+    }
+    .review-title p{
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+       text-align: center;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    padding-top: 10px;
+    }

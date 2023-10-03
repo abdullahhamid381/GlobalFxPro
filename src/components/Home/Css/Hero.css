@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:ital,wght@0,300;0,400;1,400&display=swap');
+.hero-back{
+    background: url('../../assets/Rectangle\ 1.png');
+    height: 100vh;
+  
+}
+
+.hero-back h1{
+    color: white;
+    font-size: 120px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 9.6px;
+font-family: 'Open Sans', sans-serif;
+text-align: center;
+
+padding-top: 180px;
+}
+.hero-back p{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48.1px; /* 133.611% */
+    letter-spacing: -0.36px;
+
+
+}
+.hero-section-button{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 60px;
+
+}
+.hero-section-button button{
+    border-radius: 24px;
+background: #447FF2; 
+width: 207px;
+height: 45px;
+flex-shrink: 0;
+border: none;
+border: 1px solid #447FF2;
+color: #447FF2;
+}
