@@ -26,11 +26,11 @@
             font-size: 60px;
         }
         @include sm{
-            letter-spacing: 5.6px;
+            letter-spacing: 3.6px;
             font-size: 40px;
         }
         @include mobile{
-            letter-spacing: 4.6px;
+            letter-spacing: 2.6px;
             font-size: 35px;
         }
     }
