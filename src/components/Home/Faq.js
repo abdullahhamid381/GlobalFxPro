@@ -1,5 +1,5 @@
 import React from 'react'
-import './Css/Faq.css'
+import './Css/Faq.scss'
 import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
