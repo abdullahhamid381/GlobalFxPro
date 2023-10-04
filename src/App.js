@@ -14,11 +14,15 @@ import NavBar from "./components/NavBar";
 function App() {
   return (
     <>
-    <NavBar/>
- <Hero/>
-  {/*  <How/>
-  <Price/>
- <Record/>
+<NavBar/>
+<Hero/>
+<How/>
+
+{/* <Record/> */}
+     {/*     {/*  */}
+ {/* */}
+    {/* 
+<Price/>
  <WhyChoose/>
  <AboutUs/>
  <Faq/>

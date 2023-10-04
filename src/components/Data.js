@@ -2,12 +2,14 @@ export const how=[
     {
        img:'./images/how1.png',
        para:'Forex trading, also known as foreign exchange trading or currency trading, is the act of buying and selling currencies in the foreign exchange market with the aim of making a profit.',
-       title:'Forex Trading'
+       title:'Forex Trading',
+       class:'first-how'
     },
     {
         img:'./images/how2.png',
         para:"Cryptocurrencies have become a real breakthrough in the development of finance and technology sector. They represent a fundamentally new modes of payments.",
         title:'Crypto Trading',
+        class:'second-how'
     },
     {
         img:'./images/how3.png',
