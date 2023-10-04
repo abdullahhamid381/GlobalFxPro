@@ -94,7 +94,7 @@
 
   .nav-links {
     color: #447FF2;
-    font-family: 'Open Sans', sans-serif !important;
+   
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
@@ -109,6 +109,7 @@
   .nav-item {
     line-height: 40px;
     margin-right: 1rem;
+    font-family: 'Open Sans', sans-serif !important;
   }
 
   .nav-item:after {
@@ -222,7 +223,7 @@
       border: 1px solid #447FF2;
       padding: 10px 20px;
       border-radius: 25px;
-
+      font-family: 'Open Sans', sans-serif !important;
       @include sm {
         padding: 5px 10px;
 

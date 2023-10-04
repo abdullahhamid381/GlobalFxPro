@@ -15,8 +15,8 @@ function App() {
   return (
     <>
     <NavBar/>
-  {/* <Hero/>
-  <How/>
+ <Hero/>
+  {/*  <How/>
   <Price/>
  <Record/>
  <WhyChoose/>

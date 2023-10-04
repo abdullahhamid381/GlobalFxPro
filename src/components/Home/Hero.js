@@ -1,8 +1,9 @@
 import React from 'react'
-import './Css/Hero.css'
+import './Css/Hero.scss'
 const Hero = () => {
   return (
-    <div className='hero-back'>
+  <div className="hero-parent">
+      <div className='hero-back'>
     <div className='hero-text-div'>
     <div>
      <h1>Global<span style={{color:'#447FF2'}}>FXPro</span></h1>
@@ -14,6 +15,7 @@ const Hero = () => {
      </div>
     </div>
     </div>
+  </div>
   )
 }
 
