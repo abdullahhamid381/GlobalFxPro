@@ -1,5 +1,5 @@
 import React from 'react'
-import './Css/Record.css'
+import './Css/Record.scss'
 import { record } from '../Data'
 const Record = () => {
   return (

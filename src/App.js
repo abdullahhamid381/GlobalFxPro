@@ -19,7 +19,8 @@ function App() {
 <How/>
 <Review/>
 <WhyChoose/>
-{/* <Record/> */}
+<Record/>
+{/*  */}
      {/*     {/*  */}
  {/* */}
     {/* 
