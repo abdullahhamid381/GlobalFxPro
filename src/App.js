@@ -21,7 +21,8 @@ function App() {
 <WhyChoose/>
 <Record/>
 <AboutUs/>
-{/* <Faq/>
+<Faq/>
+{/* 
 <Footer/> */}
 {/*  */}
      {/*     {/*  */}
