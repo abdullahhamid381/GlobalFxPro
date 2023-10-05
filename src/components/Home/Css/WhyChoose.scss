@@ -1,0 +1,82 @@
+@import '../../Mediaquery/Mediaquery.scss';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:ital,wght@0,300;0,400;1,400&display=swap');
+
+.choose-parent {
+    padding-top: 80px;
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+
+    @include lg {
+        width: 80%;
+        margin: auto;
+    }
+
+    .choose-title h1 {
+        color: #FFF;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+
+
+    }
+
+    .choose-title p {
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding-top: 10px;
+    }
+
+    .choose-detail {
+
+        padding-top: 60px;
+    }
+
+    .choose-detail-first {
+        display: flex;
+        gap: 60px;
+        align-items: center;
+        padding-top: 40px;
+
+        @include lg {
+            flex-direction: column;
+        }
+
+    }
+    #second{
+        @include lg{
+            display: flex;
+            flex-direction: column-reverse;
+        }
+    }
+    .choose-detail-first img {
+        width: 100%;
+    }
+
+    .choose-detail-first h1 {
+        color: #447FF2;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 35px;
+
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .choose-detail-first p {
+        color: #FFF;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+
+        font-weight: 400;
+        line-height: 31.2px;
+        /* 130% */
+        letter-spacing: -0.24px;
+    }
+}

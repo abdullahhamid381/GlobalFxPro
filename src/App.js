@@ -18,13 +18,13 @@ function App() {
 <Hero/>
 <How/>
 <Review/>
-
+<WhyChoose/>
 {/* <Record/> */}
      {/*     {/*  */}
  {/* */}
     {/* 
 <Price/>
- <WhyChoose/>
+ 
  <AboutUs/>
  <Faq/>
  <Footer/> */}
