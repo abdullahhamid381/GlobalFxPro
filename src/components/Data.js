@@ -71,3 +71,34 @@ export const record=[
     },
     
 ]
+export const reviewdata=[
+    {
+        img:'./images/review-img.png',
+        title:'Martin Goutry',
+        para:'Back-end developer at MyDodow',
+        detail:'    << Dico is finally addressing a long time problem we had when building UIs. It’s ease of use and workflow seems really intuitive. Promising! >>',
+
+    },
+    {
+        img:'./images/review-img.png',
+        title:'Martin Goutry',
+        para:'Back-end developer at MyDodow',
+        detail:'    << Dico is finally addressing a long time problem we had when building UIs. It’s ease of use and workflow seems really intuitive. Promising! >>',
+
+    },
+    {
+        img:'./images/review-img.png',
+        title:'Martin Goutry',
+        para:'Back-end developer at MyDodow',
+        detail:'    << Dico is finally addressing a long time problem we had when building UIs. It’s ease of use and workflow seems really intuitive. Promising! >>',
+
+    },
+    {
+        img:'./images/review-img.png',
+        title:'Martin Goutry',
+        para:'Back-end developer at MyDodow',
+        detail:'    << Dico is finally addressing a long time problem we had when building UIs. It’s ease of use and workflow seems really intuitive. Promising! >>',
+
+    },
+    
+]

@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:ital,wght@0,300;0,400;1,400&display=swap');
+@import '../../Mediaquery/Mediaquery.scss';
+
+.review-parent {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+padding-top: 120px;
+@include lg{
+    width: 80%;
+    margin: auto;
+}
+    .review-title {
+        h1 {
+            color: #FFF;
+            text-align: center;
+            font-family: 'Open Sans', sans-serif;
+
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+
+        p {
+            color: #FFF;
+            text-align: center;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            padding-top: 5px;
+            @include lg{
+                font-size: 18px;
+            }
+            span{
+                color: #447FF2;
+                font-family: 'Open Sans', sans-serif;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+@include lg{
+    font-size: 18px;
+}
+            }
+        }
+        
+    }
+
+    .review-slider-parent {
+        margin: 80px 0;
+
+        .swiper {
+            width: 100%;
+            height: 100%;
+            padding-bottom: 60px;
+        }
+
+        .swiper-slide {
+
+            font-size: 18px;
+
+
+            /* Center slide text vertically */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .slider-div-parent {
+            display: flex;
+            gap: 40px;
+            border-radius: 17.798px;
+            background: linear-gradient(0deg, #F7F6FB 0%, #F7F6FB 100%), #FFF;
+
+            padding: 30px 20px;
+@include lg{
+    gap: 40px;
+}
+            img {
+                width: 200%;
+                padding-top: 10px;
+                @include mobile{
+                    width: 400%;
+                }
+                @include md{
+                    width: 400%; 
+                }
+            }
+
+            h1 {
+                color: #000;
+
+                font-family: 'Open Sans', sans-serif;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+            }
+
+            p {
+                color: #B9B9B9;
+
+                padding-top: 5px;
+                font-family: 'Open Sans', sans-serif;
+                font-size: 14.239px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+            }
+
+            h6 {
+                color: #1A1B1D;
+
+                font-family: 'Open Sans', sans-serif;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                letter-spacing: 0.214px;
+                padding: 10px 0 20px 0;
+            }
+        }
+
+    }
+
+}
