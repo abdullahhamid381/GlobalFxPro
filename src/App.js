@@ -20,15 +20,18 @@ function App() {
 <Review/>
 <WhyChoose/>
 <Record/>
+<AboutUs/>
+{/* <Faq/>
+<Footer/> */}
 {/*  */}
      {/*     {/*  */}
  {/* */}
     {/* 
 <Price/>
  
- <AboutUs/>
- <Faq/>
- <Footer/> */}
+
+ 
+  */}
   </>
   );
 }

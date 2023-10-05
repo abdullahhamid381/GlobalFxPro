@@ -1,5 +1,5 @@
 import React from 'react'
-import './Css/AboutUs.css'
+import './Css/AboutUs.scss'
 const AboutUs = () => {
     return (
         <div className='about-parent'>
@@ -13,13 +13,13 @@ const AboutUs = () => {
                 <p>A dynamic and innovative forex trading <br /> company that aims to empower traders of all <br /> levels to achieve financial success in the global <br /> currency markets</p>
             </div>
 
-<div>
-    <img src="./images/about-img.png" alt="" />
-</div>
+            <div className='img'>
+                <img src="./images/about-img.png" alt="" />
+            </div>
 
-<div className='about-us-detail'>
+            <div className='about-us-detail'>
                 <h1>Together we are strong <br />
-                     <span style={{ color: '#447FF2' }}>team</span></h1>
+                    <span style={{ color: '#447FF2' }}>team</span></h1>
                 <p>Our team of seasoned professionals, equipped <br /> with years of industry experience, is dedicated <br /> to providing top-notch trading solutions and <br /> exceptional customer service to our valued <br /> clients</p>
             </div>
 
