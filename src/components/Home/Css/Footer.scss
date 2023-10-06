@@ -1,4 +1,5 @@
 @import '../../Mediaquery/Mediaquery.scss';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:ital,wght@0,300;0,400;1,400&display=swap');
 .footer {
   background: var(--neutral-100, #FFF);
 
@@ -65,7 +66,7 @@ line-height: 30px; /* 166.667% */
     .footer-col h4 {
       color: #447FF2;
       font-feature-settings: 'clig' off, 'liga' off;
-      font-family: Open Sans;
+      font-family: 'Open Sans', sans-serif;
       font-size: 20px;
       font-style: normal;
       font-weight: 700;
@@ -91,7 +92,7 @@ line-height: 30px; /* 166.667% */
       font-feature-settings: 'clig' off, 'liga' off;
       text-transform: capitalize;
       /* Text Single/200/Regular */
-      font-family: DM Sans;
+      font-family: 'Open Sans', sans-serif;
       font-size: 18px;
       font-style: normal;
       font-weight: 400;
@@ -141,7 +142,7 @@ line-height: 30px; /* 166.667% */
 font-feature-settings: 'clig' off, 'liga' off;
 
 /* Paragraph/Default */
-font-family: DM Sans;
+font-family: 'Open Sans', sans-serif;
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
@@ -150,7 +151,7 @@ span{
   color: var(--primary-color-1, #4A3AFF);
 font-feature-settings: 'clig' off, 'liga' off;
 /* Paragraph/Default */
-font-family: DM Sans;
+font-family: 'Open Sans', sans-serif;
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
