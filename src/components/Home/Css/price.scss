@@ -60,11 +60,14 @@
             background: #447FF2;
             padding: 60px 40px 60px 40px;
             border-radius: 25px;
+            @include smobile{
+                margin-left: -15px;
+            }
             @include xxsmobile{
-                margin-left: -35px;
+                margin-left: -22px;
             }
 @include lg{
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 }
             .price {
                 h1 {
