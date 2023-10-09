@@ -17,6 +17,7 @@ function App() {
 <NavBar/>
 <Hero/>
 <How/>
+<Price/>
 <Review/>
 <WhyChoose/>
 <Record/>

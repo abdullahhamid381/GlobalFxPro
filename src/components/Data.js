@@ -28,7 +28,23 @@ export const pricedetail=[
         quality1:'Multi-step Zaps',
         quality2:'3 Premium Apps',
         quality3:'2 Users team',
-        img:'./images/check.png'
+        quality4:'------------',
+        quality5:'------------',
+        img:'./images/check.png',
+        class:'first'
+    },
+    {
+        price:'$54',
+        month:'/month',
+        title:'Professional',
+        para:'Advanced tools to take your work to the next level.',
+        quality1:'Multi-step Zaps',
+        quality2:'Unlimited Premium ',
+        quality3:'50 Users team',
+        quality4:'Shared Workspace',
+        quality5:'----------------',
+        img:'./images/check.png',
+        class:'first'
     },
     {
         price:'$19',
@@ -37,17 +53,9 @@ export const pricedetail=[
         para:'Unleash the power of automation.',
         quality1:'Multi-step Zaps',
         quality2:'3 Premium Apps',
-        quality3:'2 Users team',
-        img:'./images/check.png'
-    },
-    {
-        price:'$19',
-        month:'/month',
-        title:'Starter',
-        para:'Unleash the power of automation.',
-        quality1:'Multi-step Zaps',
-        quality2:'3 Premium Apps',
-        quality3:'2 Users team',
+        quality3:'Unlimited Users Team',
+        quality4:'Advanced Admin',
+        quality5:'Custom Data Retention',
         img:'./images/check2.png',
         latestpkg:'latest'
     },

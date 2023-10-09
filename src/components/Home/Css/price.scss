@@ -1,0 +1,181 @@
+@import '../../Mediaquery/Mediaquery.scss';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:ital,wght@0,300;0,400;1,400&display=swap');
+
+.price-parent {
+    padding-top: 160px;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+
+    @include lg {
+        width: 80%;
+        margin: auto;
+    }
+
+    .price-title h1 {
+        color: #FFF;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+
+
+    }
+
+    .price-title p {
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding-top: 10px;
+    }
+
+    .price-detail {
+        display: grid;
+        width: 90%;
+        margin: auto;
+        grid-template-columns: 1fr 1fr 1fr;
+        background: #447FF2;
+        border-radius: 14px;
+        padding: 0 40px;
+        border-radius: 25px;
+        margin-top: 80px;
+
+        position: relative;
+
+        @include lg {
+            position: unset;
+            grid-template-columns: 1fr;
+            width: 80%;
+            margin: auto;
+            background: none;
+            padding-top: 40px;
+        }
+
+        .price-detail-div {
+            background: #447FF2;
+            padding: 60px 40px 60px 40px;
+            border-radius: 25px;
+
+            .price {
+                h1 {
+                    color: #FFF;
+                    font-family: 'Open Sans', sans-serif;
+                    font-size: 36px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 46px;
+
+                    /* 127.778% */
+                    span {
+                        font-size: 18px;
+                    }
+                }
+
+
+            }
+
+            .start {
+                h1 {
+                    color: #FFF;
+                    font-family: 'Open Sans', sans-serif;
+                    font-size: 28px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                    padding-top: 10px
+                }
+
+                p {
+                    color: #FFF;
+                    font-family: "Open Sans", sans-serif;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: lighter;
+                    line-height: normal;
+                    padding-top: 10px;
+                    width: 80%;
+
+                }
+            }
+
+            .spec {
+                display: flex;
+                gap: 10px;
+                align-items: center;
+                margin: 15px 0 0 0;
+
+                img {
+                    width: 15px;
+                    height: 15px;
+                }
+
+                span {
+                    color: #FFF;
+                    font-family: 'Open Sans', sans-serif;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                }
+            }
+
+            button {
+                border-radius: 24px;
+                background: #FFF;
+                padding: 13px 60px;
+                border: none;
+                cursor: pointer;
+                color: #447FF2;
+                text-align: center;
+                font-family: "Open Sans", sans-serif;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                margin-top: 40px;
+
+                @include lg {
+                    border-radius: 24px;
+                    background: #FFF;
+                    padding: 13px 27px;
+                    border: none;
+                    color: #447FF2;
+                    cursor: pointer;
+                    text-align: center;
+                    font-family: "Open Sans", sans-serif;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    margin-top: 40px;
+                }
+            }
+        }
+    }
+}
+
+#latest {
+    position: absolute;
+    background: #002979;
+    top: -40px;
+    padding-bottom: 30px;
+    right: 40px;
+    box-shadow: 0px 66px 34px 0px rgba(82, 67, 194, 0.30);
+
+    button {
+        margin-top: 77px;
+    }
+
+    @include lg {
+        background: #447FF2;
+        padding: 60px 40px 60px 40px;
+        border-radius: 25px;
+        position: unset;
+        box-shadow: none;
+    }
+}
