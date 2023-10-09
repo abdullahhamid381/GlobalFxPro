@@ -4,7 +4,7 @@
 .nav-bar-parent {
   .navbar {
     background-color: white;
-    height: 80px;
+  
     display: flex;
     align-items: center;
     font-size: 1.2rem;
@@ -13,7 +13,7 @@
     top: 0;
     z-index: 20; */
     @include mobile {
-      height: 55px;
+   
     }
   }
 
@@ -25,6 +25,9 @@
     height: 80px;
     max-width: 1500px;
     margin: auto;
+    @include mobile{
+      height: 55px;
+    }
   }
 
   .logo-div {
@@ -167,7 +170,10 @@
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 1;
-    margin-top: -25px;
+    @include mobile{
+      top: 53px;
+    }
+  
     }
 
     .nav-item .active {
@@ -194,7 +200,7 @@
       @include mobile {
         display: block;
         position: absolute;
-        top: 1px;
+        top: 3px;
         right: -4px;
         transform: translate(-100%, 60%);
         font-size: 18px;
@@ -215,20 +221,22 @@
     display: flex;
     align-items: center;
     gap: 20px;
-
+@include mobile{
+  gap: 10px;
+}
     @include lg {
       padding-right: 80px;
     }
 
     @include mobile {
-      padding-right: 40px;
+      padding-right: 15px;
     }
 
     button {
       font-size: 16px;
       font-weight: 700;
       border: 1px solid #447FF2;
-      padding: 10px 20px;
+      padding: 10px 25px;
       border-radius: 25px;
       font-family: 'Open Sans', sans-serif !important;
 
