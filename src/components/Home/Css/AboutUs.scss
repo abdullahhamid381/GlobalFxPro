@@ -42,7 +42,9 @@
         line-height: normal;
         padding-top: 10px;
         text-align: center;
-
+        @include mobile{
+            font-size: 16px;
+        }
     
     }
     
@@ -67,6 +69,9 @@
         font-weight: 700;
         line-height: normal;
         letter-spacing: -0.35px;
+        @include lg{
+            font-size: 28px;
+        }
     }
     
     .about-us-detail p {
@@ -78,5 +83,8 @@
         font-weight: 400;
         line-height: normal;
         letter-spacing: -0.28px;
+        @include lg{
+            font-size: 18px;
+        }
     }
 }

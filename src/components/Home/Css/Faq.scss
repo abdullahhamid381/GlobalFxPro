@@ -21,6 +21,9 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    @include lg{
+        font-size: 32px;
+    }
 
 
 }
@@ -34,6 +37,9 @@
     line-height: normal;
     padding-top: 10px;
     font-size: 28px;
+    @include lg{
+        font-size: 18px;
+    }
 }
 
 .css-i4bv87-MuiSvgIcon-root {
