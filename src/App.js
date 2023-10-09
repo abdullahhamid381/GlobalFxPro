@@ -19,8 +19,9 @@ function App() {
 <How/>
 <Price/>
 <Review/>
-<WhyChoose/>
 <Record/>
+<WhyChoose/>
+
 <AboutUs/>
 <Faq/>
 <Footer/>
