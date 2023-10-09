@@ -23,6 +23,7 @@ export default function Review() {
       </div>
       <div className="review-slider-parent">
         <Swiper
+        
           slidesPerView={1}
           spaceBetween={10}
           pagination={{
