@@ -13,7 +13,7 @@ const Footer = () => {
              <div><img src="./images/logo2.png" alt="" />
              <p>Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam</p>
              </div>
-              <div className="social-links" style={{marginTop:'30px 0'}}>
+              <div className="social-links" style={{marginLeft:'-12px',marginTop:'15px'}}>
                 <a href="#"><FaFacebook /></a>
                 <a href="#"><BsInstagram /></a>
                 <a href="#"><FaLinkedinIn /></a>

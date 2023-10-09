@@ -23,18 +23,12 @@ function App() {
 <Record/>
 <AboutUs/>
 <Faq/>
-{/* <Footer/> */}
-{/* 
- */}
-{/*  */}
-     {/*     {/*  */}
- {/* */}
-    {/* 
-<Price/>
+<Footer/>
+
  
 
  
-  */}
+
   </>
   );
 }
