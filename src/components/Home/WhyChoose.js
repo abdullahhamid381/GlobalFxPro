@@ -4,7 +4,7 @@ const WhyChoose = () => {
     return (
         <div className='choose-parent'>
             <div className='choose-title'>
-                <h1 style={{ color: '' }}> Why Choose <span style={{ color: '#447FF2' }}> us</span></h1>
+                <h1 style={{ color: '' }}> Why Choose <span style={{ color: '#447FF2' }}> us?</span></h1>
                 <p>Discover early user’s feedback on  <span style={{ color: '#447FF2' }}>Dico integration within   <br /> their workflows.</span></p>
             </div>
 

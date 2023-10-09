@@ -21,9 +21,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width: 95%;
     height: 80px;
     max-width: 1500px;
+    margin: auto;
   }
 
   .logo-div {
@@ -33,14 +34,14 @@
   .nav-logo {
     color: #f5b921;
     align-items: center;
-    margin-left: 20px;
+
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
     flex-grow: 1;
     display: flex;
     gap: 10px;
-    padding-left: 40px;
+ 
 
     img {
       width: 100%;
@@ -148,22 +149,25 @@
   @media screen and (max-width: 992px) {
     .nav-menu {
       display: flex;
-      flex-direction: column;
-      width: 100%;
-      border-top: 1pxsolid #fff;
-      position: absolute;
-      top: 80px;
-      left: -110%;
-      opacity: 1;
-      transition: all 0.5s ease;
+    flex-direction: column;
+    width: 55%;
+    border-top: 1pxsolid #fff;
+    position: absolute;
+    top: 80px;
+    left: -110%;
+    opacity: 1;
+    transition: all 0.5s ease;
+    align-items: baseline;
+    height: 100vh;
     }
 
     .nav-menu.active {
-      background: #1f5156;
-      left: 0px;
-      opacity: 1;
-      transition: all 0.5s ease;
-      z-index: 1;
+      background: #ffffff;
+    left: 0px;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+    margin-top: -25px;
     }
 
     .nav-item .active {

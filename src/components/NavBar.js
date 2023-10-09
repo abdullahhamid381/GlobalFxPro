@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-
+import {AiOutlineClose} from 'react-icons/ai'
+import {GiHamburgerMenu} from 'react-icons/gi'
 import "./NavBar.scss";
 
 function NavBar() {
@@ -64,7 +65,17 @@ function NavBar() {
           </div>
           
           <div className="nav-icon" onClick={handleClick}>
-            <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
+            {/* <i className={click ? "fas fa-times" : "fas fa-bars"}></i> */}
+
+            {click ? (
+              <span className="icon">
+                     <AiOutlineClose />{" "}
+              </span>
+            ) : (
+              <span className="icon">
+                <GiHamburgerMenu />
+              </span>
+            )}
           </div>
         </div>
       </nav>
