@@ -60,7 +60,9 @@
             background: #447FF2;
             padding: 60px 40px 60px 40px;
             border-radius: 25px;
-
+@include lg{
+    margin-bottom: 80px;
+}
             .price {
                 h1 {
                     color: #FFF;
