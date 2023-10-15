@@ -6,6 +6,7 @@ const Hero = () => {
       <div className='hero-back'>
     <div className='hero-text-div'>
       <div className='translate'>
+        <span>Select Language</span>
         <img src="./images/Vector.png" alt="" />
       </div>
     <div>

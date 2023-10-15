@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:ital,wght@0,300;0,400;1,400&display=swap');
 
 .nav-bar-parent {
+  position: fixed;
+  /* top: 132px; */
+  z-index: 99999;
+  width: 100%;
   .navbar {
     background-color: white;
   
@@ -22,7 +26,7 @@
     justify-content: space-between;
     align-items: center;
     width: 95%;
-    height: 80px;
+    height: 71px;
     max-width: 1500px;
     margin: auto;
     @include mobile{
