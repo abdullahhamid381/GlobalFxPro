@@ -62,7 +62,7 @@ function NavBar() {
           <div className="login-navbar">
             <button className="log-in" style={{color:'#447FF2',}}>Login</button>
             <button className="log-in" style={{color:'white',background:'#447FF2',}}>Sign Up</button>
-            <img src="./images/tran.png" alt="" width={'10%'} />
+            {/* <img src="./images/tran.png" alt="" width={'10%'} /> */}
           </div>
           
           <div className="nav-icon" onClick={handleClick}>
