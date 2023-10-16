@@ -77,7 +77,8 @@ export const record=[
     {
         img:'./images/record3.png',
         title:' Active Users',
-        class:'bounce',
+        user:'50K+',
+        class:'fade',
     },
     
 ]
