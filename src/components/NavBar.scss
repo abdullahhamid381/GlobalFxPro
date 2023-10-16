@@ -194,12 +194,12 @@
     .nav-icon {
       display: block;
       position: absolute;
-      top: 0;
+      top: -2px;
       right: 0;
       transform: translate(-100%, 60%);
       font-size: 1.8rem;
       cursor: pointer;
-      color: #447FF2;
+      color: #000000;
 
       @include mobile {
         display: block;
@@ -209,7 +209,7 @@
         transform: translate(-100%, 60%);
         font-size: 18px;
         cursor: pointer;
-        color: #447FF2;
+        color: #000000;
       }
 
     }
