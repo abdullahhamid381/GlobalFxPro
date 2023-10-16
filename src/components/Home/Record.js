@@ -14,7 +14,7 @@ const Record = () => {
                 return(
                 <center>
                         <div>
-                        <img src={item.img} alt="" />
+                        <img src={item.img} alt="" className={item.class}/>
                     <h1>{item.title}</h1>
                     <p>{item.user}</p>
                     </div>
