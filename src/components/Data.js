@@ -63,20 +63,20 @@ export const pricedetail=[
 
 export const record=[
     {
-        img:'./images/record1.png',
+        img:'./images/user.gif',
         title:' Active Users',
         user:'50K+',
         class:'fade',
     },
     {
-        img:'./images/record2.png',
-        title:' Active Users',
+        img:'./images/global.gif',
+        title:' Counties Supported',
         user:'50K+',
         class:'spin',
     },
     {
-        img:'./images/record3.png',
-        title:' Active Users',
+        img:'./images/trade.gif',
+        title:'Weekly Trading Volume ',
         user:'50K+',
         class:'fade',
     },
