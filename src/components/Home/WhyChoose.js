@@ -8,6 +8,8 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import{AiFillPlayCircle} from 'react-icons/ai'
 import expert from '../assets/expert.mp4'
+import security from '../assets/security.mp4'
+import personl from '../assets/personl.mp4'
 const style = {
     position: 'absolute',
     top: '50%',
@@ -25,6 +27,12 @@ const WhyChoose = () => {
     const [open, setOpen] = React.useState(false);
     const handleOpen = () => setOpen(true);
     const handleClose = () => setOpen(false);
+    const [opensecond, setOpensecond] = React.useState(false);
+    const handleOpensecond = () => setOpensecond(true);
+    const handleClosesecond = () => setOpensecond(false);
+    const [openthird, setOpenthird] = React.useState(false);
+    const handleOpenthird = () => setOpenthird(true);
+    const handleClosethird = () => setOpenthird(false);
     return (
         <div className='choose-parent'>
             <div className='choose-title'>
@@ -53,12 +61,7 @@ const WhyChoose = () => {
                             >
                                 <Fade in={open}>
                                     <Box sx={style}>
-                                        <Typography id="transition-modal-title" variant="h6" component="h2">
-                                            Text in a modal
-                                        </Typography>
-                                        <Typography id="transition-modal-description" sx={{ mt: 2 }}>
-                                            Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
-                                        </Typography>
+                                    <video src={expert} controls style={{width:'100%'}}></video>
                                     </Box>
                                 </Fade>
                             </Modal>
@@ -79,12 +82,12 @@ const WhyChoose = () => {
                     <div className='imgg'>
                         <img src="./images/choose2.png" alt="" />
                         <div className='modal'>
-                            <Button onClick={handleOpen}><AiFillPlayCircle/></Button>
+                            <Button onClick={handleOpensecond}><AiFillPlayCircle/></Button>
                             <Modal
                                 aria-labelledby="transition-modal-title"
                                 aria-describedby="transition-modal-description"
-                                open={open}
-                                onClose={handleClose}
+                                open={opensecond}
+                                onClose={handleClosesecond}
                                 closeAfterTransition
                                 slots={{ backdrop: Backdrop }}
                                 slotProps={{
@@ -93,14 +96,9 @@ const WhyChoose = () => {
                                     },
                                 }}
                             >
-                                <Fade in={open}>
+                                <Fade in={opensecond}>
                                     <Box sx={style}>
-                                        <Typography id="transition-modal-title" variant="h6" component="h2">
-                                            Text in a modal
-                                        </Typography>
-                                        <Typography id="transition-modal-description" sx={{ mt: 2 }}>
-                                            Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
-                                        </Typography>
+                                    <video src={personl} controls style={{width:'100%'}}></video>
                                     </Box>
                                 </Fade>
                             </Modal>
@@ -112,12 +110,12 @@ const WhyChoose = () => {
                 <div className='imgg'>
                         <img src="./images/choose3.png" alt="" />
                         <div className='modal'>
-                            <Button onClick={handleOpen}><AiFillPlayCircle/></Button>
+                            <Button onClick={handleOpenthird}><AiFillPlayCircle/></Button>
                             <Modal
                                 aria-labelledby="transition-modal-title"
                                 aria-describedby="transition-modal-description"
-                                open={open}
-                                onClose={handleClose}
+                                open={openthird}
+                                onClose={handleClosethird}
                                 closeAfterTransition
                                 slots={{ backdrop: Backdrop }}
                                 slotProps={{
@@ -126,9 +124,9 @@ const WhyChoose = () => {
                                     },
                                 }}
                             >
-                                <Fade in={open}>
+                                <Fade in={openthird}>
                                     <Box sx={style}>
-                                       <video src={expert} controls style={{width:'100%'}}></video>
+                                       <video src={security} controls style={{width:'100%'}}></video>
                                     </Box>
                                 </Fade>
                             </Modal>
