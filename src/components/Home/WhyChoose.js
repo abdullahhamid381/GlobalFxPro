@@ -7,6 +7,7 @@ import Fade from '@mui/material/Fade';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import { AiFillPlayCircle } from 'react-icons/ai'
+import { BsFillPlayFill} from 'react-icons/bs'
 import expert from '../assets/expert.mp4'
 import security from '../assets/security.mp4'
 import personl from '../assets/personl.mp4'
@@ -45,7 +46,7 @@ const WhyChoose = () => {
                     <div className='imgg'>
                         <img src="./images/choose1.png" alt="" />
                         <div className='modal'>
-                            <Button onClick={handleOpen}><AiFillPlayCircle /></Button>
+                            <Button onClick={handleOpen}><BsFillPlayFill /></Button>
                             <Modal
                                 aria-labelledby="transition-modal-title"
                                 aria-describedby="transition-modal-description"
@@ -61,7 +62,7 @@ const WhyChoose = () => {
                             >
                                 <Fade in={open}>
                                     <Box sx={style}>
-                                        <video src={expert} controls style={{ width: '100%' }}></video>
+                                        <video src={expert} controls style={{ width: '100%' }} className='video'></video>
                                     </Box>
                                 </Fade>
                             </Modal>
@@ -82,7 +83,7 @@ const WhyChoose = () => {
                     <div className='imgg'>
                         <img src="./images/choose2.png" alt="" />
                         <div className='modal'>
-                            <Button onClick={handleOpensecond}><AiFillPlayCircle /></Button>
+                            <Button onClick={handleOpensecond}><BsFillPlayFill /></Button>
                             <Modal
                                 aria-labelledby="transition-modal-title"
                                 aria-describedby="transition-modal-description"
@@ -98,7 +99,7 @@ const WhyChoose = () => {
                             >
                                 <Fade in={opensecond}>
                                     <Box sx={style}>
-                                        <video src={personl} controls style={{ width: '100%' }}></video>
+                                        <video src={personl} autoPlay controls style={{ width: '100%' }} className='video'></video>
                                     </Box>
                                 </Fade>
                             </Modal>
@@ -110,7 +111,7 @@ const WhyChoose = () => {
                     <div className='imgg'>
                         <img src="./images/choose3.png" alt="" />
                         <div className='modal'>
-                            <Button onClick={handleOpenthird}><AiFillPlayCircle /></Button>
+                            <Button onClick={handleOpenthird}><BsFillPlayFill /></Button>
                             <Modal
                                 aria-labelledby="transition-modal-title"
                                 aria-describedby="transition-modal-description"
@@ -126,7 +127,7 @@ const WhyChoose = () => {
                             >
                                 <Fade in={openthird}>
                                     <Box sx={style}>
-                                        <video src={security} controls style={{ width: '100%' }}></video>
+                                        <video src={security} autoPlay controls style={{ width: '100%' }} className='video'></video>
                                     </Box>
                                 </Fade>
                             </Modal>
