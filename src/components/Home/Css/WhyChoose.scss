@@ -60,6 +60,40 @@
             flex-direction: column-reverse;
         }
     }
+    .choose-detail-first{
+        .imgg{
+            width: 100%;
+            position: relative;
+        }
+        .modal{
+            position: absolute;
+            top: 38%;
+            left: 40%;
+            button{
+                font-size: 60px;
+                color: #447FF2;
+            // animation: fade-in-animation .8s ease-in-out infinite;
+          
+            // opacity: 0;
+            /* Start with full transparency (invisible) */
+        
+
+        // @keyframes fade-in-animation {
+        //     0% {
+        //         opacity: 0;
+        //         /* Start with full transparency (invisible) */
+        //     }
+
+        //     100% {
+        //         opacity: 10;
+        //         /* End with full opacity (visible) */
+        //     }
+        // }
+            }
+            
+
+        }
+    }
     .choose-detail-first img {
         width: 100%;
     }
@@ -83,4 +117,25 @@
         /* 130% */
         letter-spacing: -0.24px;
     }
+
+   
+}
+
+.css-1wnsr1i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 50% !important;
+    /* background-color: #fff; */
+    /* border: 2px solid #000; */
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    height: auto;
+    /* box-shadow: 0px 11px 15px -7px rgba(0,0,0,0.2), 0px 24px 38px 3px rgba(0,0,0,0.14), 0px 9px 46px 8px rgba(0,0,0,0.12); */
+    padding: 32px;
 }
