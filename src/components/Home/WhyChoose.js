@@ -99,7 +99,7 @@ const WhyChoose = () => {
                             >
                                 <Fade in={opensecond}>
                                     <Box sx={style}>
-                                        <video src={personl} autoPlay controls style={{ width: '100%' }} className='video'></video>
+                                        <video src={personl} autoPlay controls style={{ width: '100%',outline:'none' }} className='video'></video>
                                     </Box>
                                 </Fade>
                             </Modal>

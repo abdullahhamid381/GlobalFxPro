@@ -15,14 +15,14 @@ function App() {
   return (
     <>
 <NavBar/>
-<Hero/>
+ <Hero/>
 <How/>
 <Price/>
 <Review/>
 <Record/>
 <WhyChoose/>
-
 <AboutUs/>
+
 <Faq/>
 <Footer/>
 
