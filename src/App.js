@@ -4,6 +4,7 @@ import Faq from "./components/Home/Faq";
 import Footer from "./components/Home/Footer";
 import Hero from "./components/Home/Hero";
 import How from "./components/Home/How";
+import Plan from "./components/Home/Plan";
 import Price from "./components/Home/Price";
 import Record from "./components/Home/Record";
 import Review from "./components/Home/Review";
@@ -17,7 +18,8 @@ function App() {
 <NavBar/>
  <Hero/>
 <How/>
-<Price/>
+{/* <Price/> */}
+<Plan/>
 <Review/>
 <Record/>
 <WhyChoose/>
