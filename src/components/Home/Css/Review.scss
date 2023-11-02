@@ -7,7 +7,7 @@
     margin: auto;
 padding-top: 120px;
 @include lg{
-    width: 80%;
+    width: 90%;
     margin: auto;
 }
     .review-title {
@@ -32,11 +32,9 @@ padding-top: 120px;
             line-height: normal;
             padding-top: 5px;
             @include lg{
-                font-size: 18px;
+                font-size: 22px;
             }
-            @include mobile{
-                font-size: 16px;
-            }
+      
             span{
                 color: #447FF2;
                 font-family: 'Open Sans', sans-serif;
@@ -45,7 +43,7 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 @include lg{
-    font-size: 18px;
+    font-size: 22px;
 }
             }
         }
@@ -54,6 +52,9 @@ line-height: normal;
 
     .review-slider-parent {
         margin: 100px 0 80px 0;
+        @include lg{
+            margin: 60px 0 0px 0;
+        }
 
         .swiper {
             width: 100%;

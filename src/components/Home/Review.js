@@ -16,7 +16,7 @@ export default function Review() {
   return (
     <div className='review-parent'>
       <div className="review-title">
-        <h1>Users Testimonials
+        <h1><span style={{color:'rgb(68, 127, 242)'}}>Users </span> Testimonials
           
         </h1>
         <p>Discover early user’s feedback on <span> Dico integration within <br />their workflows.</span></p>

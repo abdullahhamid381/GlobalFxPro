@@ -110,12 +110,12 @@
             letter-spacing: 3.6px;
             width: 90%;
             margin: auto;
-            font-size: 40px;
+            font-size: 50px;
         }
 
         @include mobile {
             letter-spacing: 1.6px;
-            font-size: 35px;
+            font-size: 50px;
             padding-top: 220px;
             width: 90%;
             margin: auto;
@@ -134,30 +134,36 @@
         letter-spacing: -0.36px;
 
         @include lg {
-            font-size: 24px;
-            width: 90%;
+            font-size: 25px;
+            line-height: 27.1px;
+            width: 91%;
             margin: auto;
+            padding: 5px 0;
 
         }
 
         @include tablet {
-            font-size: 20px;
-            width: 90%;
+            font-size: 25px;
+            line-height: 27.1px;
+            width: 91%;
             margin: auto;
+            padding: 5px 0;
         }
 
         @include sm {
-            font-size: 16px;
-            line-height: 24.1px;
-            width: 90%;
+            font-size: 25px;
+            line-height: 27.1px;
+            width: 91%;
             margin: auto;
+            padding: 5px 0;
         }
 
         @include mobile {
-            font-size: 16px;
-            line-height: 24.1px;
-            width: 90%;
+            font-size: 25px;
+            line-height: 27.1px;
+            width: 91%;
             margin: auto;
+            padding: 5px 0;
         }
     }
 

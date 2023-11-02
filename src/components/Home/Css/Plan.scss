@@ -5,6 +5,11 @@
     padding-top: 120px;
 
     .plan-title {
+        @include lg {
+            width: 80%;
+            margin: auto;
+        }
+
         h1 {
             font-size: 40px;
             font-weight: 600;
@@ -29,25 +34,31 @@
             span {
                 color: rgb(68, 127, 242);
             }
+
+            @include lg {
+                font-size: 22px;
+            }
         }
     }
 
     .plan-price-section {
-        width:80%;
+        width: 80%;
         padding: 10px 0;
         margin: auto;
         background: #447FF2;
         border-radius: 40px;
         position: relative;
         margin-top: 120px;
-        @include lg{
+
+        @include lg {
             background: none;
+            margin-top: 60px;
         }
 
         .swiper {
             width: 100%;
             height: 100%;
-      padding-bottom: 10px;
+            padding-bottom: 10px;
         }
 
         .swiper-slide {
@@ -65,11 +76,13 @@
                 padding: 60px 40px 60px 40px;
                 border-radius: 25px;
                 width: 65%;
-                height: 400px;
-@include smobile{
-    height: 420px;
-}
-                @include lg{
+                height: 430px;
+
+                @include smobile {
+                    height: 430px;
+                }
+
+                @include lg {
                     margin-bottom: 30px;
                 }
 
@@ -147,7 +160,8 @@
                     font-weight: 500;
                     line-height: normal;
                     margin-top: 40px;
-                    @include smobile{
+
+                    @include smobile {
                         border-radius: 24px;
                         background: #FFF;
                         padding: 9px 50px;
@@ -167,11 +181,12 @@
             }
 
             #latest {
-                
+
                 background: #002979;
-@include lg{
-    box-shadow: none;
-}
+
+                @include lg {
+                    box-shadow: none;
+                }
             }
         }
     }
