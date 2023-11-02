@@ -79,10 +79,10 @@
                 height: 420px;
                 @include lg {
                     margin-bottom: 30px;
-                    height: 440px !important;
+                    height: 490px !important;
                 }
                 @include smobile {
-                    height: 440px !important;
+                    height: 490px !important;
                 }
 
             
@@ -190,5 +190,14 @@
                 }
             }
         }
+    }
+    #first-button{
+        margin-top: 80px;
+        @include lg{
+            margin-top: 140px !important;
+        }
+    }
+    #third-button{
+        margin-top: 57px;
     }
 }

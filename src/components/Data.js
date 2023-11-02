@@ -21,43 +21,46 @@ export const how=[
 
 export const pricedetail=[
     {
-        price:'$19',
+        price:'$30-$300',
         month:'/month',
-        title:'Starter',
-        para:'Unleash the power of automation.',
-        quality1:'Multi-step Zaps',
-        quality2:'3 Premium Apps',
-        quality3:'2 Users team',
-        quality4:'------------',
+        title:'Basic Package        ',
+        para:'Choose our ',
+        quality1:'15 days plans',
+        quality2:'16.6% profit ',
+        quality3:'Added to telegram ',
+        quality4:'24/5 hours support',
         quality5:'------------',
         img:'./images/check.png',
-        class:'first'
+        class:'first',
+        id:'first-button'
     },
     {
-        price:'$54',
+        price:'$5000-',
         month:'/month',
-        title:'Professional',
+        title:'Premium Package',
         para:'Advanced tools to take your work to the next level.',
-        quality1:'Multi-step Zaps',
-        quality2:'Unlimited Premium ',
-        quality3:'50 Users team',
-        quality4:'Shared Workspace',
+        quality1:'15 Days plan',
+        quality2:'Profit depending on investments',
+        quality3:'Added to telegram',
+        quality4:'24/5 hours supporth',
         quality5:'----------------',
         img:'./images/check.png',
-        class:'first'
+        class:'first',
+        id:'second-button'
     },
     {
-        price:'$19',
+        price:'$500-$5000',
         month:'/month',
-        title:'Starter',
-        para:'Unleash the power of automation.',
-        quality1:'Multi-step Zaps',
-        quality2:'3 Premium Apps',
-        quality3:'Unlimited Users Team',
-        quality4:'Advanced Admin',
-        quality5:'Custom Data Retention',
+        title:'Standard Package',
+        para:'Automation plus enterprise-grade features.',
+        quality1:'15 Days plan',
+        quality2:'21% profit',
+        quality3:'full team support',
+        quality4:'Added to telegram',
+        quality5:'24/5 hours support ',
         img:'./images/check2.png',
-        latestpkg:'latest'
+        latestpkg:'latest',
+        id:'third-button'
     },
 ]
 

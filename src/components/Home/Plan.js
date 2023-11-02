@@ -75,7 +75,7 @@ const Plan = () => {
                                     <span>{item.quality5}</span>
                                 </div>
                              </div>
-                             <button>Choose Plan</button>
+                             <button id={item.id}>Choose Plan</button>
                             </div>
                         </SwiperSlide>
                         )
