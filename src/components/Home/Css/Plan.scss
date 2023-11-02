@@ -76,15 +76,16 @@
                 padding: 60px 40px 60px 40px;
                 border-radius: 25px;
                 width: 65%;
-                height: 430px;
-
-                @include smobile {
-                    height: 430px;
-                }
-
+                height: 420px;
                 @include lg {
                     margin-bottom: 30px;
+                    height: 440px !important;
                 }
+                @include smobile {
+                    height: 440px !important;
+                }
+
+            
 
                 .price-detail-price {
                     h1 {
