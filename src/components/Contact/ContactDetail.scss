@@ -21,6 +21,10 @@
             font-style: normal;
             font-weight: 700;
             line-height: normal;
+            @include lg{
+            
+                text-align: center;
+            }
 
             span {
                 color: #447FF2;
@@ -29,6 +33,10 @@
                 font-style: normal;
                 font-weight: 700;
                 line-height: normal;
+                @include lg{
+             
+                    text-align: center;
+                }
             }
         }
 
@@ -42,6 +50,9 @@
             font-weight: 600;
             line-height: normal;
             letter-spacing: -0.35px;
+            @include lg{
+                text-align: center;
+            }
 
         }
 
@@ -75,7 +86,10 @@
                 font-weight: 600;
                 line-height: normal;
                 letter-spacing: -0.4px;
-
+@include lg{
+    font-size: 28px;
+    text-align: center;
+}
                 span {
                     color: #447FF2;
                     font-family: "Open Sans", sans-serif;
@@ -84,6 +98,10 @@
                     font-weight: 600;
                     line-height: normal;
                     letter-spacing: -0.4px;
+                    @include lg{
+                        font-size: 28px;
+                        text-align: center;
+                    }
                 }
             }
 
@@ -97,6 +115,10 @@
                 /* 130% */
                 letter-spacing: -0.24px;
                 padding-top: 10px;
+                @include lg{
+                    
+                    text-align: center;
+                }
             }
 
             .media {
@@ -104,6 +126,9 @@
                 align-items: center;
                 gap: 30px;
                 padding-top: 80px;
+                @include lg{
+                    flex-direction: column;
+                }
 
                 h1 {
                     color: #FFF;

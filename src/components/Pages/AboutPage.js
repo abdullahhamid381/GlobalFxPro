@@ -10,7 +10,9 @@ const AboutPage = () => {
     <div>
         <NavBar/>
         <Translate/>
-        <AboutUs/>
+   <div style={{marginTop:'80px'}}>
+    <AboutUs/>
+   </div>
         <WhyChoose/>
       
         <Footer/>
