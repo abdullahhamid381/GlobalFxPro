@@ -9,10 +9,10 @@ const AboutPage = () => {
   return (
     <div>
         <NavBar/>
-       
+        <Translate/>
         <AboutUs/>
         <WhyChoose/>
-        <Translate/>
+      
         <Footer/>
     </div>
   )
