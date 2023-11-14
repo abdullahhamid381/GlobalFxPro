@@ -89,6 +89,15 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    @include lg{
+        color: #FFF;
+        text-align: center;
+        font-family: "Open Sans", sans-serif;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
 }
 .question-button{
     border-radius: 24px;

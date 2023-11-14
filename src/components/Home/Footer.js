@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="row">
             <div className="footer-col">
               <div><img src="./images/logo2.png" alt="" />
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam</p>
+                <p className='logo-para'>Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam</p>
               </div>
               <div className="social-links" style={{ marginLeft: '-12px', marginTop: '15px' }}>
                 <a href="#"><FaFacebook /></a>
@@ -42,7 +42,7 @@ const Footer = () => {
               </div>
             </div>
             <div className="two-row-footer">
-              <div className="footer-col">
+              <div className="footer-col support">
                 <h4>Support</h4>
                 <ul>
                   <li><a href="#">Getting started</a></li>

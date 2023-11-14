@@ -22,6 +22,17 @@
       margin: auto;
       border-bottom: 1px solid rgba(128, 128, 128, 0.247);
     }
+
+
+    .support{
+      @include lg{
+        margin-left: 25px;
+      }
+    }
+    .logo-para{
+      color: #6F6C90;
+      font-family: "Open Sans", sans-serif;
+    }
   }
 
   .row {
@@ -201,4 +212,5 @@ width: 90%;
       line-height: 30px;
     }
   }
+ 
 }

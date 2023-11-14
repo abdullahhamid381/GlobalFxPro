@@ -40,7 +40,7 @@ const Record = () => {
     let interval;
     if (showCountdown) {
       interval = setInterval(() => {
-        if (countdown < 40) {
+        if (countdown < 50) {
           setCountdown(countdown + 1);
         }
       }, 100);
@@ -157,7 +157,7 @@ const Record = () => {
             <h1>Active Users</h1>
             {showCountdown && (
               <div>
-                <p>{countdown}+</p>
+                <p>{countdown}k+</p>
               </div>
             )}
 
@@ -170,7 +170,7 @@ const Record = () => {
 
             {showCountdowntwo                                             && (
               <div>
-                <p>{countdowntwo}k+</p>
+                <p>{countdowntwo}+</p>
               </div>
             )}
            
@@ -182,7 +182,7 @@ const Record = () => {
             <h1>Weekly Trading Volume </h1>
             {showCountdown && (
               <div>
-                <p>${countdown}+</p>
+                <p>${countdown}M</p>
               </div>
             )}
           </div>
