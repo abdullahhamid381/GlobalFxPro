@@ -28,7 +28,7 @@ function NavBar() {
                 className="nav-links"
                 onClick={handleClick}
               >
-              <Link to='/'>
+              <Link to='/' className="link">
               Home
               </Link>
               </div>
@@ -39,7 +39,7 @@ function NavBar() {
                 className="nav-links"
                 onClick={handleClick}
               >
-              <Link to='/about'>
+              <Link to='/about' className="link">
               About
               </Link>
               </div>
@@ -59,7 +59,7 @@ function NavBar() {
                 className="nav-links"
                 onClick={handleClick}
               >
-               <Link to='/contact'>
+               <Link to='/contact' className="link">
                Contact
                </Link>
               </div>

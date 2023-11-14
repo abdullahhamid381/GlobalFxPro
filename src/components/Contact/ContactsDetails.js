@@ -1,7 +1,10 @@
 import React, { useState } from 'react';
 import NavBar from '../NavBar';
 import AboutUs from '../Home/AboutUs';
-
+import Translate from '../Reuse/Translate';
+import { BsFacebook, BsTelegram, BsInstagram } from 'react-icons/bs'
+import './ContactDetail.scss'
+import Footer from '../Home/Footer';
 const ContactsDetails = () => {
   const [formData, setFormData] = useState({
     name: '',
@@ -57,59 +60,98 @@ const ContactsDetails = () => {
   };
 
   return (
-  <div>
-    <NavBar/>
-    <AboutUs/>
-    <div>
-    <form onSubmit={handleSubmit}>
-      <div>
-        <label>Name:</label>
-        <input
-          type="text"
-          name="name"
-          value={formData.name}
-          onChange={handleInputChange}
-        />
-        <div className="error">{errors.name}</div>
+    <div className='contact-detail-parent'>
+      <NavBar />
+      <Translate />
+      <div className="contact-para">
+        <h1>Contact  <span>us</span></h1>
+        <p>Our dedicated support team is available and ready to assist you 24/5.
+          Please get in touch using the details below if you have any questions about our service or products.</p>
+
+        <img src="./images/contactpic.png" alt="" />
       </div>
 
-      <div>
-        <label>Email:</label>
-        <input
-          type="text"
-          name="email"
-          value={formData.email}
-          onChange={handleInputChange}
-        />
-        <div className="error">{errors.email}</div>
-      </div>
+      <div className='form-parent'>
+        <div className="form-text">
+          <h1>Feel free to contact <span>us!</span></h1>
+          <p>Our team of seasoned professionals, equipped with years of industry experience, is dedicated to providing top-notch trading solutions and exceptional customer service to our valued clients</p>
 
-      <div>
-        <label>Phone:</label>
-        <input
-          type="text"
-          name="phone"
-          value={formData.phone}
-          onChange={handleInputChange}
-        />
-        <div className="error">{errors.phone}</div>
-      </div>
+          <div className='media'>
+            <h1>Connect with Social</h1>
+            <div className='icons'>
+              <span><BsFacebook /></span>
+              <span><BsInstagram /></span>
+              <span><BsTelegram /></span>
+            </div>
 
-      <div>
-        <label>Company name/VAT:</label>
-        <input
-          type="text"
-          name="companyNameVAT"
-          value={formData.companyNameVAT}
-          onChange={handleInputChange}
-        />
-        <div className="error">{errors.companyNameVAT}</div>
-      </div>
+          </div>
+        </div>
+        <div className="form">
+          <div className="width">
+            <div className='form-info'>
+              <h1>Contact us!</h1>
+              <p>
+                Let’s discuss your project, or together we will find a solution to the most difficult tasks
+              </p>
+            </div>
+            <div >
+              <form onSubmit={handleSubmit}>
+                <div className='email' style={{ paddingTop: '20px' }}>
 
-      <button type="submit">Submit</button>
-    </form>
+                  <input
+                    type="text"
+                    name="name" placeholder='Name'
+                    value={formData.name}
+                    onChange={handleInputChange}
+                  />
+                  <div className="error">{errors.name}</div>
+                </div>
+                <div className="email-phone">
+
+                  <div className='email spec' >
+
+                    <input
+                      type="text" placeholder='Email'
+                      name='email'
+                      value={formData.email}
+                      onChange={handleInputChange}
+                    />
+                    <div className="error">{errors.email}</div>
+                  </div>
+
+                  <div className='email'>
+
+                    <input
+                      type="text" placeholder='Phone'
+                      name='phone'
+                      value={formData.phone}
+                      onChange={handleInputChange}
+                    />
+                    <div className="error">{errors.phone}</div>
+                  </div>
+                </div>
+
+                <div className='email' style={{ paddingBottom: '20px' }}>
+
+                  <input placeholder='Company name/VAT'
+                    type="text"
+                    name="companyNameVAT"
+                    value={formData.companyNameVAT}
+                    onChange={handleInputChange}
+                  />
+                  <div className="error">{errors.companyNameVAT}</div>
+                </div>
+                <div className='para'>
+                  <p>By clicking on the button the below, you accept our policy policy</p>
+                </div>
+                <button type="submit">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <Footer />
     </div>
-  </div>
   );
 };
 

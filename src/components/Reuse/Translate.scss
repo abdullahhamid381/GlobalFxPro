@@ -1,0 +1,70 @@
+
+@import '../Mediaquery/Mediaquery.scss';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:ital,wght@0,300;0,400;1,400&display=swap');
+.translate-parent{
+    padding-top: 100px;
+    display: flex;
+    justify-content: end;
+    max-width: 1500px;
+    width: 100%;
+    @include lg{
+        width: 90%;
+        margin: auto;
+        padding-top: 80px;
+    }
+    .translate {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        background: #D9D9D95E;
+       justify-content: end;
+        width: 13%;
+        justify-content: center;
+        padding: 10px;
+        border-radius: 50px;
+        
+        
+
+        @include lg {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background: rgba(217, 217, 217, 0.368627451);
+           
+            /* width: 8%; */
+            justify-content: center;
+            /* padding: 10px; */
+            border-radius: 61px;
+          
+          
+            width: 22px;
+            height: 22px;
+            padding: 5px;
+        }
+
+        @include mobile {
+            right: 15px;
+            top: 70px;
+        }
+
+        img {
+            width: 10%;
+
+            @include lg {
+                width: 69%;
+            }
+        }
+
+        span {
+            color: #FFF;
+            font-family: "Open Sans", sans-serif;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+
+            @include lg {
+                display: none;
+            }
+        }
+    }
+}
