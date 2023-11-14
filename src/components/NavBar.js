@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import {AiOutlineClose} from 'react-icons/ai'
 import {GiHamburgerMenu} from 'react-icons/gi'
 import "./NavBar.scss";
+import { Link } from "react-router-dom";
 
 function NavBar() {
   const [click, setClick] = useState(false);
@@ -27,7 +28,9 @@ function NavBar() {
                 className="nav-links"
                 onClick={handleClick}
               >
-                Home
+              <Link to='/'>
+              Home
+              </Link>
               </div>
             </li>
             <li className="nav-item">
@@ -36,7 +39,9 @@ function NavBar() {
                 className="nav-links"
                 onClick={handleClick}
               >
-                About
+              <Link to='/about'>
+              About
+              </Link>
               </div>
             </li>
             <li className="nav-item">
@@ -54,7 +59,9 @@ function NavBar() {
                 className="nav-links"
                 onClick={handleClick}
               >
-                Contact
+               <Link to='/contact'>
+               Contact
+               </Link>
               </div>
             </li>
        
